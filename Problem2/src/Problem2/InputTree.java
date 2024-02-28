@@ -7,6 +7,7 @@ class InputTree {
 
 	static void userInput() {
 		InputTree tree = new InputTree();
+		tree.node = new TreeNode(10);
 		tree.node.left = new TreeNode(5);
 		tree.node.left.left = new TreeNode(1);
 		tree.node.left.right = new TreeNode(6);
