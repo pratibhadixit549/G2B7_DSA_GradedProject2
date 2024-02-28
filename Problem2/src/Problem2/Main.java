@@ -21,7 +21,6 @@ public class Main {
 		new BSTToSkewed();
 		BSTToSkewed.bstToRightSkewedTree(node);
 
-		
 		// Printing Right Skewed Tree node values present in ascending order
 		BSTToSkewed.printSkewedTree();
 
