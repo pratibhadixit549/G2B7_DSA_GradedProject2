@@ -6,14 +6,22 @@ class InputTree {
 	static TreeNode node;
 
 	static void userInput() {
+		// InputTree tree = new InputTree();
+		// tree.node = new TreeNode(10);
+		// tree.node.left = new TreeNode(5);
+		// tree.node.left.left = new TreeNode(1);
+		// tree.node.left.right = new TreeNode(6);
+		// tree.node.right = new TreeNode(12);
+		// tree.node.right.left = new TreeNode(11);
+		// tree.node.right.right = new TreeNode(15);
+
 		InputTree tree = new InputTree();
-		tree.node = new TreeNode(10);
-		tree.node.left = new TreeNode(5);
-		tree.node.left.left = new TreeNode(1);
-		tree.node.left.right = new TreeNode(6);
-		tree.node.right = new TreeNode(12);
-		tree.node.right.left = new TreeNode(11);
-		tree.node.right.right = new TreeNode(15);
+		tree.node = new TreeNode(50);
+		tree.node.left = new TreeNode(30);
+		tree.node.right = new TreeNode(60);
+		tree.node.left.left = new TreeNode(10);
+		tree.node.left.left.right = new TreeNode(20);
+		tree.node.right.left = new TreeNode(55);
 
 		// Converting BST to Right Skewed Tree
 		new BSTToSkewed();

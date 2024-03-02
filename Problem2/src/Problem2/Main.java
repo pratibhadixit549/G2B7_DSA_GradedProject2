@@ -2,7 +2,7 @@ package Problem2;
 
 public class Main {
 
-	// Entry point
+	// Entry point of program
 	public static void main(String[] args) {
 
 		new InputTree();
